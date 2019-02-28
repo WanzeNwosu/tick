@@ -5,11 +5,12 @@
   }
   body{
     font-family: cursive;
-    text-align: center;
   }
   nav{
       background-color:rgba(15, 15, 36, 0.568);
       height: 70px;  
+      text-align: center;
+
   }
   li{
       list-style-type: none;
@@ -28,4 +29,25 @@
       background-color: silver;
       font-family: Helvetica;
       font-size: 105%;
+  }
+  .part1{
+      background: url("../img/slackbot.png");
+      height: 460px;
+
+  }
+  .parta{
+      margin-left: 30px;
+      width: 50%;
+      text-align: center;
+      line-height: 120px;
+  }
+  p:first-child{
+      font-size: 500%;
+      padding-top: 85px;
+  }
+  p:nth-child(2){
+      font-size: 160%;
+      line-height: 50px;
+      padding-left: 120px;
+      color: white;
   }
