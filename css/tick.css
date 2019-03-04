@@ -3,9 +3,7 @@
     margin: 0;
     padding: 0;
   }
-  body{
-    font-family: cursive;
-  }
+  
   nav{
       background-color:rgba(15, 15, 36, 0.568);
       height: 70px;  
@@ -27,7 +25,7 @@
   }
   body{
       background-color: silver;
-      font-family: Helvetica;
+      font-family: cursive;
       font-size: 105%;
   }
   .part1{
@@ -50,4 +48,105 @@
       line-height: 50px;
       padding-left: 120px;
       color: white;
+  }
+  .part2{
+      background-color: white;
+      display: inline-block;
+      padding: 15px;
+      line-height: 150%;
+  }
+  .leftmove{
+      width: 47%;
+      float: left;
+      padding: 25px;
+  }
+  .rightmove{
+      width: 47%;
+      float: left;
+      padding: 25px;
+  }
+  .feet{
+      clear: left;
+  }
+  .part3{
+      background-color: rgba(62, 231, 76, 0.568);
+  }
+  .myBox{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+  .one{
+      flex-grow: 1;
+      margin: 5%;
+  }
+  .two{
+    flex-grow: 1;
+    margin: 5%;
+}
+.three{
+    flex-grow: 1;
+    margin:5%;
+
+}
+.part4{
+    background-color: white;
+    line-height: 179%;
+}
+.section4{
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+}
+.section{
+    text-align: center;
+}
+.button4{
+    margin-left: 35%;
+    line-height: 180%;
+    width: 25%;
+    height: 125%;
+    font-size: 160%;
+    background-color: rgba(15, 15, 36, 0.568);
+}
+.insPageHeader{
+    text-align: center;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 200%;
+}
+img{
+    width: 100%;
+}
+section{
+    background-color: white;
+}
+.relax{
+    line-height: 180%;
+    width: 45%;
+    height: 125%;
+    font-size: 160%;
+    background-color: white;
+}
+.relax:hover{
+    background-color: lightblue;
+}
+.toe{
+    width: 30%;
+    margin-left: 36.5%;
+    line-height: 180%;
+
+}
+  footer{
+    background-color:rgba(15, 15, 36, 0.568);
+    color: hsla(0,0%,100%,.75);
+    font-size: .825rem;
+    margin-bottom: .25rem;
+    position: absolute;
+    margin-bottom: 0;
+    width: 100%;
   }
