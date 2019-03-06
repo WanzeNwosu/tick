@@ -27,17 +27,29 @@
       background-color: silver;
       font-family: cursive;
       font-size: 105%;
+
   }
   .part1{
       background: url("../img/slackbot.png");
       height: 460px;
-
+      width: 100%;
   }
   .parta{
       margin-left: 30px;
       width: 50%;
       text-align: center;
       line-height: 120px;
+  }
+  .partb{
+    background-color: rgb(223, 223, 35);
+    color: rgb(91, 166, 201);
+    border-radius: 50%;
+    width: 360px;
+    height: 360px;
+    float: right;
+    position: absolute;
+    top: 150px;
+    margin-left: 800px;
   }
   p:first-child{
       font-size: 500%;
@@ -112,6 +124,7 @@
 }
 .insPageHeader{
     text-align: center;
+    
 }
 h3{
     font-family: Arial, Helvetica, sans-serif;
@@ -120,7 +133,8 @@ h3{
     line-height: 200%;
 }
 img{
-    width: 100%;
+    width: auto;
+    background-color: rgba(15, 15, 36, 0.568);
 }
 section{
     background-color: white;
