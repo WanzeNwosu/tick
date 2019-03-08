@@ -30,6 +30,7 @@
                 569266122354.2e849c9d52bc9084515f99edff662ccc2d4f7de6b0569cb0ce602031ffd3b01e">Add to <strong>Slack</strong></a></span>
                 </div>
                 <div class = "partb">
+                    <img src="img/bot.png" alt="tickybot image from google" class="bot">
                     ok
                 </div>
 
@@ -113,8 +114,24 @@ The app is not created by, affiliated with, or supported by Slack Technologies, 
             </div>
 
         </footer>
-        <button>
-            
-        </button>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
+        <script>
+            // When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+        </script>
     </body>
 </html>

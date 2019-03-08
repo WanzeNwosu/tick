@@ -40,8 +40,9 @@
       text-align: center;
       line-height: 120px;
   }
+  
   .partb{
-    background-color: rgb(223, 223, 35);
+    background-color: rgba(245, 201, 4, 0.76), 0.884), 0.877), 0.877), 0.877), 0.877), 0.877);
     color: rgb(91, 166, 201);
     border-radius: 50%;
     width: 360px;
@@ -163,4 +164,28 @@ section{
     position: absolute;
     margin-bottom: 0;
     width: 100%;
+  }
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(239, 243, 11); /* Set a background color */
+    color: rgb(12, 12, 12); /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: yellow; /* Add a dark-grey background on hover */
+  }
+  .bot{
+      margin-left: 120px;
+      margin-top: 90px;
+      border-radius: 20%;
   }
